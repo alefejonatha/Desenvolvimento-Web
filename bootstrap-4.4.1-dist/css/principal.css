@@ -1,0 +1,16 @@
+.imgArt{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+  
+footer{
+    align-items: center;
+    text-align: center;
+}
+
+.carr{
+    height: 650px;
+    width: 500px;
+    padding-top: 20px;
+}
