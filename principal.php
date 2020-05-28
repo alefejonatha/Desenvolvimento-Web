@@ -1,3 +1,4 @@
+
 <?php include_once('topo.php'); ?>
 <hr>
 <div class="cont">
@@ -16,7 +17,7 @@
                             <img src="<?=$dados['linkPost']?>" class="imgArt" alt="" srcset="">
                         </div>
                         <div class="col-6">
-                        <a href="?pg=poster&dadosId=<?=$dados['id']?>" class="" style="text-decoration:none"  >
+                            <a href="?pg=poster&dadosId=<?=$dados['id']?>" class="" style="text-decoration:none"  >
                                 <h3><?=$dados['tituloPost']?></h3>
                             </a>
                 	        <p><?=$dados['textoPost']?></p>
@@ -73,20 +74,14 @@
                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                  </div>
                </div>
-               <div class="card bg-light text-dark mb-3" style="max-width: 18rem;">
+               <div class="card bg-light mb-3 bg-dark mb-3" style="max-width: 18rem;">
                  <div class="card-header">Header</div>
                  <div class="card-body">
                    <h5 class="card-title">Light card title</h5>
                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                  </div>
                </div>
-               <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                 <div class="card-header">Header</div>
-                 <div class="card-body">
-                   <h5 class="card-title">Dark card title</h5>
-                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 </div>
-               </div>  
+                
                            
                            
 

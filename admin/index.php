@@ -7,7 +7,7 @@
 
     
     <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/principal.css">
-    <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/poster.css">
+    
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
@@ -41,7 +41,7 @@
 </div>    
         
 <footer>
-        <div class="p-3 bg-dark text-white ">
+        <div class="p-3 bg-dark text-white">
             <?php include_once('../rodape.php'); ?>
         </div>  
 </footer>  

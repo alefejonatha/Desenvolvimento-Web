@@ -10,11 +10,10 @@
 			
 			$nome = $_POST['nome'];
 			$email = $_POST['email'];
-			$phone = $_POST['phone'];
-			#$assunto = $_POST['assunto'];
+			$phone = $_POST['phone'];			
 			$texto = $_POST['texto'];
 			
-			$dados = "INSERT INTO `faleconosco`(`nome`, `email`, `phone`, `texto`) VALUES ('$nome','$email','$phone','$texto')";		
+			$dados = "INSERT INTO `faleconosco`(`nome`, `email`, `phone`, `texto`, `id`) VALUES ('$nome','$email','$phone','$texto', NULL)";		
 
 			$query = mysqli_query($conexao, $dados);
             

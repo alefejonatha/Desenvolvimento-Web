@@ -1,9 +1,7 @@
 <?php
 
 $id = $_GET['id'];
-
 $sql = "DELETE FROM artigo WHERE id = ('$id')";
-
 $delete = mysqli_query($conexao, $sql);
 
 if(!$delete){

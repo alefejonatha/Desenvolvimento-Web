@@ -8,27 +8,27 @@ while($dados=mysqli_fetch_array($busca)){
     
 ?>
 
-<H1>Editar</H1>
+<form class="col-lg"  action="?pg=editarBanco" method="post">
+    <input type="hidden" name="id" value="<?=$dados['id'];?>">
+            <label>Titulo do Card: </label>
+                <input class="col-lg" name="tituloPost" type="text" value="<?=$dados['tituloPost'];?>">
 
-<form id="contactForm" action="?pg=editarBanco" method="post">
-    <label>Titulo do Card: </label>
-        <input name="tituloCard" type="text" value="<?=$dados['tituloCard'];?>">
-        
-    <label>Texto do Card: </label>
-        <textarea name="textoCard" value="<?=$dados['textoCard'];?>"><?=$dados['textoCard'];?></textarea>
+            <label>Texto do Card: </label>
+            <textarea class="col-lg" name="textoPost" value="<?=$dados['textoPost'];?>"><?=$dados['textoPost'];?></textarea>
 
-    <label>Foto do Card: </label>
-       <textarea name="linkFotoCard" value="<?=$dados['linkFotoCard'];?>"><?=$dados['linkFotoCard'];?></textarea>
+            <label>Foto do Card: </label>
+               <textarea class="col-lg" name="linkPost" value="<?=$dados['linkPost'];?>"><?=$dados['linkPost'];?></textarea>
 
-    <label>Titulo do Artigo: </label>
-       <input name="tituloArt" type="text" value="<?=$dados['tituloArt'];?>">
+            <label>Titulo do Artigo: </label>
+               <input class="col-lg" name="tituloArt" type="text" value="<?=$dados['tituloArt'];?>">
 
-    <label>Texto do Artigo: </label>
-        <textarea name="textoArt" value="<?=$dados['textoArt'];?>"><?=$dados['textoArt'];?></textarea>
-    <label>Link do video: </label>
-        <textarea name="linkVideoArt" value="<?=$dados['linkVideoArt'];?>"><?=$dados['linkVideoArt'];?></textarea>
-
-    <hr>
-    <button class="btn btn-primary" name="Enviar">Cadastrar</button>
+            <label>Texto do Artigo: </label>
+                <textarea class="col-lg" name="textoArt" value="<?=$dados['textoArt'];?>"><?=$dados['textoArt'];?></textarea>
+            <label>Link do video: </label>
+                <textarea class="col-lg" name="linkArt" value="<?=$dados['linkArt'];?>"><?=$dados['linkArt'];?></textarea>   
+                <hr>
+            <button class="btn btn-info col-2" name="Enviar">Atualizar</button>
+    
 </form>
 
+<?php } ?>

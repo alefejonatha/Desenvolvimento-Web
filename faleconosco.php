@@ -3,7 +3,6 @@
 	<hr>
   <h2>FALE CONOSCO</h2> 
   <form  id="contactForm" action="?pg=contatodb" method="post">
-     
 	 
 	 <label>Nome:</label> 
 	 <input type="text" class="form-control" name="nome" required="" data-validation-required-message="Please enter your name.">
