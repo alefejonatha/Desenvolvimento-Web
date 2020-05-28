@@ -17,7 +17,7 @@
                 </a>
             </div>
             <div>
-            <a href="?pg=editar&id=<?=$dados['id']; ?>">
+            <a href="?pg=editar&id=<?=$dados['id']; ?>">  <!--RESOLVER ERRO-->
                 <button type="button" class="m-1 btn btn-warning">Editar</button>
             </a>
             </div>
