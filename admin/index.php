@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/principal.css">
     <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/poster.css">
-
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
     crossorigin="anonymous">
@@ -18,17 +18,19 @@
     
 </head>
 <body>
-    <header>
-        <div class="p-3 bg-dark text-white" >
-            <?php include_once('menu.php'); ?> 
+    
+<div class="d-flex flex-row p-3 bg-dark text-white ">
+        <div class="col-2 p-2 bg-dark text-white" >
+            <?php include_once('sidebar.php'); ?> 
         </div>           
-    </header>
-     
-    <div class="p-3 bg-dark text-white" >
+              
+    
+    
+    <div class="col-9 p-2 bg-dark text-white">
 	    <?php
 	    # área de conteúdo
 	    if(empty($_SERVER["QUERY_STRING"])){
-	            $var = "principal.php";
+	            $var = "listar.php";
 	            include_once("$var");
 	    }else{
 	            $pg = $_GET['pg'];
@@ -36,11 +38,13 @@
 	    }
 	    ?>
 	</div>
+</div>    
         
-	<footer>   
-        <div class="p-3 bg-dark text-white center" >
-            <?php include_once('rodape.php'); ?>
-        </div>    
-    </footer>
+<footer>
+        <div class="p-3 bg-dark text-white ">
+            <?php include_once('../rodape.php'); ?>
+        </div>  
+</footer>  
+    
 </body>
 </html>

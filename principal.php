@@ -1,4 +1,5 @@
-
+<?php include_once('topo.php'); ?>
+<hr>
 <div class="cont">
     <div class= "d-flex flex-row">
         <div class="d-flex flex-column" id="right">
@@ -15,7 +16,7 @@
                             <img src="<?=$dados['linkPost']?>" class="imgArt" alt="" srcset="">
                         </div>
                         <div class="col-6">
-                            <a href="" class="" style="text-decoration:none" >
+                        <a href="?pg=poster&dadosId=<?=$dados['id']?>" class="" style="text-decoration:none"  >
                                 <h3><?=$dados['tituloPost']?></h3>
                             </a>
                 	        <p><?=$dados['textoPost']?></p>
