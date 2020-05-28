@@ -6,7 +6,7 @@
     <title>WikiMusic.com</title>
 
     
-    <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/principal.css">
+    <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/principal.css">
     
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
