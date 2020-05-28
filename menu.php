@@ -5,7 +5,7 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="./pages/sobre.html">Sobre</a>
+      <a class="nav-link" href=".?pg=sobre">Sobre</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="?pg=faleconosco">Fale Conosco</a>

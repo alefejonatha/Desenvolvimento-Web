@@ -1,4 +1,6 @@
 <div class="container">
+	<br>
+	<hr>
   <h2>FALE CONOSCO</h2> 
   <form  id="contactForm" action="?pg=contatodb" method="post">
      
