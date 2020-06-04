@@ -1,11 +1,9 @@
 <?php
-
 $id = $_GET['id'];
 $sql = "SELECT * FROM artigo WHERE id = $id";
 $busca = mysqli_query($conexao, $sql);
 
-while($dados=mysqli_fetch_array($busca)){
-    
+while($dados=mysqli_fetch_array($busca)){    
 ?>
 
 <form class="col-lg"  action="?pg=editarBanco" method="post">

@@ -13,12 +13,12 @@
             </div>
             <div>
                 <a href="?pg=excluir&id=<?=$dados['id']?>">            
-                    <button type="button" class="btn btn-danger">Excluir</button>
+                    <button type="button" class="col-12 btn btn-danger">Excluir</button>
                 </a>
             </div>
             <div>
             <a href="?pg=editar&id=<?=$dados['id']; ?>">
-                <button type="button" class="m-1 btn btn-warning">Editar</button>
+                <button type="button" class="m-1 col-12 btn btn-warning">Editar</button>
             </a>
             </div>
         </div>                    
