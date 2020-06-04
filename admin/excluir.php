@@ -7,8 +7,8 @@ $delete = mysqli_query($conexao, $sql);
 if(!$delete){
     echo "Não foi possível excluir registro. <a href='?pg=admin/inserir'>Tente Novamente</a>";
 }else{
-   echo "<h3>Registro excluído com sucesso!</h3>";
-    header("Refresh: 5, ?pg=listar");
+  echo "<h3>Registro excluído com sucesso!</h3>";
+    include_once("listar.php");
 }
 
 
