@@ -13,7 +13,7 @@
     <li class="nav-item">
       <a class="nav-link" href="https://www.google.com/" target="_blanck">Help</a>
     </li>
-    <form action="./admin/index.php" class="form-inline my-2 my-lg-0">      
+    <form action="./admin/login.php" class="form-inline my-2 my-lg-0">      
       <button class="btn btn-sm btn-outline-secondary my-2 my-sm-0" type="submit">Admin</button>
     </form>
   </ul>
